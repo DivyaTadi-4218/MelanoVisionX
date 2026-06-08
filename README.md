@@ -1,38 +1,26 @@
----------------------------Information----------------------
+# MelanoVisionX: Automated Melanoma Detection
 
-# Default Login Credentials
+## Overview
+AI-powered skin cancer detection system using Deep Learning.
 
-username - 'admin'
-password - 'admin'
+## Technologies
+- Python
+- TensorFlow
+- Keras
+- CNN
+- EfficientNet
+- Flask
+- SQLite
 
-# Python 3.12 basic virtual environment is in 'env' folder
+## Dataset
+ISIC Skin Cancer Dataset (7,255 Images)
 
-# Activate the environment by executing command
+## Results
+- CNN Accuracy: 87.64%
+- VGG19 Accuracy: 85.66%
+- EfficientNet Accuracy: 93.82%
 
-env\Scripts\activate
-
-# After environment activation
-
-# user can install all the requirement for this project by executing command
-
-pip install -r req.txt
-
-# User can run the project after installing the requirements
-
-# To run the project execute
-
-python app.py
-
-# All the images tested by users will be stored in `/static/images/test/` folder
-
-# If the database is corrupted or not working just remove `/instance` folder and delete all the files
-
-# in `/static/images/test/` folder and when the app is run next time it will create a database and then
-
-# create new accounts through frontend
-
-# `Note : This above method will cost all the data already stored in the database handle with caution `
-
-# Test samples is provided for testing or displaying
-
-# Test samples are in `/Test Samples` folder
+## Features
+- Image Upload
+- Melanoma / Non-Melanoma Classification
+- Web-based Interface
